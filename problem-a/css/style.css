@@ -1,0 +1,41 @@
+circle {
+    fill: #5f5f5f;
+}
+
+circle.small {
+    fill: white;
+}
+
+g circle.small {
+    fill: #573d29;
+}
+
+path {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+
+path#interactive {
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+
+path#interactive:hover {
+    fill: #bd250d;
+}
+
+path:last-child {
+    stroke: none;
+    stroke-width: 0px;
+}
+
+rect {
+    opacity: 0;
+}
+
+g circle, g rect {
+    fill: #c0c0c0;
+    stroke: none;
+    opacity: 1;
+}
